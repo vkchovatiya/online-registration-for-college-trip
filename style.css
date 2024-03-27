@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+   
+    margin: auto;
+    padding: 34px;
+
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+input,textarea{
+    
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: blue;
+    background-color: yellow;
+    padding: 15px 19px;
+    cursor: pointer;
+    border: 10px;
+    border-radius: 9px;
+    pointer-events: stroke;
+}
+
+.bgimg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 30%;
+
+}
+
+.submitline {
+    color: green;
+    text-shadow: 10px;
+    font-style: bold;
+    font-family: revert;
+    text-decoration-color: chocolate;
+}
